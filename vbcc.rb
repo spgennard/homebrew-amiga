@@ -25,7 +25,7 @@ class Vbcc < Formula
     sha256 'c643a095439aaf0cbcf7521920c0ff5d1cb07a4fc6fe8cc59e69ae1dbb329497'
   end
 
-  depends_on 'lha' => :build
+  depends_on 'lhasa' => :build
 
   def install
 
